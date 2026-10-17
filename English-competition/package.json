@@ -1,0 +1,16 @@
+{
+  "name": "english-test-word-quiz",
+  "version": "1.0.0",
+  "description": "English Test - Word Quiz: an offline vocabulary trainer with 3682 words and 7237 Chinese meanings",
+  "main": "main.js",
+  "author": "2049168557-blip",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-packager . \"English Test\" --platform=win32 --arch=x64 --out=dist --overwrite --asar --app-version=1.0.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-packager": "^17.1.2"
+  }
+}
